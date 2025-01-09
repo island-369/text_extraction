@@ -10,7 +10,7 @@ from keyboard import add_hotkey, remove_hotkey
 
 def create_icon():
     # 从文件创建图标
-    icon_path = os.path.join(os.path.dirname(__file__), 'icon.png')  # 图标文件路径
+    icon_path = os.path.join(os.path.dirname(__file__), 'assets', 'icon.png')  # 图标文件路径
     if os.path.exists(icon_path):
         return QIcon(icon_path)
     else:
