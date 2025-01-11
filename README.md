@@ -4,6 +4,10 @@ A simple screenshot OCR tool with hotkey support and multi-language recognition.
 
 一个简单易用的屏幕截图文字提取工具，支持快捷键操作和中英文识别。
 
+## Preview | 预览
+
+![Screenshot](docs/screenshot.png)
+
 ## Features | 功能特点
 
 - 简洁的图形界面 | Clean and intuitive interface
