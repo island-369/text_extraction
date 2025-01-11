@@ -9,11 +9,11 @@ echo ============================================
 
 call env.bat
 if %errorlevel% equ 0 (
-    python main.py
+    python src/main.py
 ) else (
     echo ============================================
     echo             错误：环境激活失败
     echo ============================================
     echo 请确保已经运行过 setup.bat 进行环境配置
-    timeout /t 1 >nul
+    timeout /t 5 >nul
 ) 
