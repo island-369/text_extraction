@@ -26,6 +26,7 @@ ENV/
 .env
 .venv
 env/
+pdf_totext/
 
 # IDE
 .idea/
@@ -35,4 +36,13 @@ env/
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Project specific
+*.log
+model/
+inference/
+*.pth
+*.pdmodel
+*.pdiparams
+*.pdiparams.info 
