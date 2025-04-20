@@ -101,8 +101,3 @@ conda activate pdf_totext
 1. 首次运行时会自动下载OCR模型文件 | OCR model will be downloaded automatically on first run
 2. 确保安装了正确版本的Visual C++ Redistributable | Make sure correct version of Visual C++ Redistributable is installed
 3. 如果快捷键冲突，可以修改源码中的快捷键设置 | If hotkey conflicts, you can modify it in source code
-
-## Feedback | 问题反馈
-
-如果遇到问题或有改进建议，可以通过以下方式联系：
-If you encounter any issues or have suggestions, please contact: 853174787@qq.com
